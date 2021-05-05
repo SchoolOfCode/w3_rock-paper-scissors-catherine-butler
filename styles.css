@@ -1,0 +1,54 @@
+* {
+    background-color: lightseagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 100px;
+    transition: 1s;
+}
+
+ .selection:hover {   
+    font-size: 150px;
+}
+
+.results {
+    margin-top: 25px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    justify-items: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.result-score {  
+    margin-left: .1rem;
+    font-size: .8rem;
+    color: magenta;
+}
+
+.result-selection {
+    opacity: .3;
+    font-size: 50px;
+}
+
+.result-selection.winner {
+    opacity: 1;
+    font-size: 50px;
+} 

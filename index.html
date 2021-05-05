@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <title>Rock, Paper, Scissors</title>
-    <script src ="main.js"></script>
-    <h1> Let's Play</h1>
+    
+    <h1 class= "intro"> Let's Play: Rock Paper Scissors!</h1>
+</head>
+<body>
   <div class="selections">
-    <button class="selection">🪨</button>
-    <button class="selection">📝</button>
-    <button class="selection">✌️</button>
-  </div>
-  <div class="results">
-    <div>Human
-    <span class="result-score">0</span>
+      <button class="selection" data-selection="rock">🪨</button>
+      <button class="selection" data-selection="paper">📝</button>
+      <button class="selection" data-selection="scissors">✂️</button>
     </div>
-  </div>
-    <div>Computer
-    <span class="result-score">>0</span>
-    </div>
-  </head>
-  <body></body>
+    <div class="results">
+      <div>You
+      <span class="result-score">0</span>
+      </div>
+      <div data-final-column >Computer
+        <span class="result-score">0</span>
+        </div>
+  
+
+    <script src ="main.js"></script></body>
 </html>
